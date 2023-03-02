@@ -1,7 +1,6 @@
 const initialState = {
     theme: 'light',
     posts: [],
-    comments: [],
     isLoggedIn: false,
 }
 
