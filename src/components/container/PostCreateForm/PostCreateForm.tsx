@@ -4,11 +4,6 @@ import { Post } from "../../../models/PostModel";
 import Actions from "../../../state/Actions/Actions";
 import { StateContext } from "../../../state/context/context";
 
-// type PostCreateFormProps = {
-//     state: State;
-//     dispatch:
-// }
-
 function PostCreateForm() {
   const { state, dispatch } = useContext(StateContext);
   let post : Post = {
@@ -48,7 +43,7 @@ function PostCreateForm() {
         <textarea
           placeholder="Write some content..."
           onInput={(e) =>
-            post ={ ...post, content: (e.target as HTMLInputElement).value }
+            post = { ...post, content: (e.target as HTMLInputElement).value }
           }
         ></textarea>
         <input

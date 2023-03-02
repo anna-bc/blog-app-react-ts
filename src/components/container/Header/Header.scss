@@ -1,0 +1,18 @@
+.Header {
+    padding: 0px 20px;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    gap: 20px;
+
+    &__menuIcon {
+        height: 75%;
+        font-size: 2rem;
+    }
+
+    &__loginButton {
+        flex-grow: 2;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
